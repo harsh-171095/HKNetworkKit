@@ -32,7 +32,7 @@ then add the products you want. Or in a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/<your-username>/NetworkKit.git", from: "1.0.0")
+    .package(url: "https://github.com/harsh-171095/NetworkKit.git", from: "1.0.0")
 ],
 targets: [
     .target(name: "MyApp", dependencies: [
@@ -56,68 +56,6 @@ pod 'NetworkKit/Keyboard'        # + keyboard handling
 > `import NetworkKitImage` / `import KeyboardKit`).
 
 ---
-
-### Publishing it (free, for everyone)
-
-**Step 1 — push to a public GitHub repo with a version tag.** SPM resolves
-versions from git tags; this alone makes SPM installs work — no registration, no fees.
-
-```bash
-cd framework_api_service
-git init && git add . && git commit -m "NetworkKit 1.0.0"
-git branch -M main
-git remote add origin https://github.com/<your-username>/NetworkKit.git
-git push -u origin main
-git tag 1.0.0 && git push origin 1.0.0          # tag = the SPM/Pod version
-```
-
-That's everything SPM needs. Share the URL — anyone can add it for free.
-
-**Step 2 (optional) — publish to CocoaPods trunk** so `pod install` works:
-
-```bash
-# a) Pick a UNIQUE pod name (edit NetworkKit.podspec — "NetworkKit" is likely taken),
-#    and set the homepage/source URLs to your repo.
-
-# b) Validate the spec against the pushed tag:
-pod spec lint NetworkKit.podspec        # use `pod lib lint` to check locally first
-
-# c) One-time: register your email with trunk (creates a free account):
-pod trunk register support@nuverse.in 'Harsh Kadiya' --description='mac'
-#    (click the link in the confirmation email)
-
-# d) Publish:
-pod trunk push NetworkKit.podspec
-```
-
-After that, `pod 'NetworkKit'` resolves for everyone. New releases = bump
-`s.version`, push a matching git tag, run `pod trunk push` again.
-
-## Folder structure
-
-```
-Sources/NetworkKit/
-    Core/            APIClient, NetworkClient, configuration, HTTP primitives, errors
-    Request/         Endpoint, RequestBody, MultipartFormData, URLRequestBuilder
-    Response/        NetworkResponse, ResponseValidator
-    Authentication/  Bearer / Basic / API-key providers, token refresh
-    Interceptor/     RequestInterceptor (adapt + process)
-    Middleware/      Observability hooks, MetricsMiddleware
-    Logger/          NetworkLogger, ConsoleLogger, curl builder
-    Retry/           RetryPolicy, backoff strategies
-    Reachability/    NetworkReachability (NWPathMonitor-based connectivity)
-    Cache/           NetworkCachePolicy
-    Security/        ServerTrustEvaluator (SSL/public-key pinning)
-    Utilities/       Coders, TransferProgress
-    Extensions/      Encodable/Data JSON helpers
-
-Sources/NetworkKitImage/   (optional product — dependency-free image loading)
-    PlatformImage, ImageCache, ImagePipeline, WebImageLoader,
-    UIImageView+WebImage (UIKit), NetworkImage (SwiftUI)
-
-Sources/KeyboardKit/       (optional product — iOS keyboard handling)
-    KeyboardManager (+Toolbar), UIView+Keyboard, View+DismissKeyboard (SwiftUI)
-```
 
 ## Quick start
 
