@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   DESC
   s.homepage         = 'https://github.com/<your-username>/NetworkKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Harsh Kadiya' => 'support@nuverse.in' }
-  s.source           = { :git => 'https://github.com/<your-username>/NetworkKit.git', :tag => s.version.to_s }
+  s.author           = { 'Harsh Kadiya' => 'harshraj.gohil171095@gmail.com' }
+  s.source           = { :git => 'https://github.com/harsh-171095/NetworkKit.git', :tag => s.version.to_s }
 
   s.swift_versions = ['6.0']
   s.ios.deployment_target    = '15.0'
