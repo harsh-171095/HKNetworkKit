@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HKNetworkKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'A modern, dependency-free Swift networking toolkit (async/await), plus optional image loading and keyboard handling.'
   s.description      = <<-DESC
     HKNetworkKit is a production-ready, URLSession-based networking framework built
@@ -14,14 +14,15 @@ Pod::Spec.new do |s|
   DESC
   s.homepage         = 'https://github.com/harsh-171095/HKNetworkKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Harsh Kadiya' => 'harshraj.gohil171095@gmail.com' }
+  s.author           = { 'Harsh Kadiya' => 'harsh171095@gmail.com' }
   s.source           = { :git => 'https://github.com/harsh-171095/HKNetworkKit.git', :tag => s.version.to_s }
 
   s.swift_versions = ['6.0']
-  s.ios.deployment_target    = '15.0'
-  s.osx.deployment_target    = '12.0'
-  s.tvos.deployment_target   = '15.0'
-  s.watchos.deployment_target = '8.0'
+  # CocoaPods distribution targets iOS + macOS. (SwiftPM's Package.swift still
+  # supports tvOS/watchOS; they're omitted here so `pod lib lint` doesn't require
+  # tvOS/watchOS simulators to be installed.)
+  s.ios.deployment_target = '15.0'
+  s.osx.deployment_target = '12.0'
 
   s.default_subspec = 'Core'
 
@@ -37,7 +38,6 @@ Pod::Spec.new do |s|
     image.source_files = 'Sources/HKNetworkKitImage/**/*.swift'
     image.frameworks   = 'CryptoKit'
     image.ios.frameworks    = 'UIKit'
-    image.tvos.frameworks   = 'UIKit'
     image.osx.frameworks    = 'AppKit'
   end
 
