@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/master.swiftdeps"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner.dia"
+  }
+}

@@ -1,0 +1,1726 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.xctest/Contents/MacOS/NetworkKitPackageTests",
+      "packagePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service",
+      "productName" : "NetworkKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.KeyboardKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/sources",
+      "importPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager+Toolbar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/UIView+Keyboard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KeyboardKit",
+      "moduleOutputPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/KeyboardKit.swiftmodule",
+      "objects" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/KeyboardManager+Toolbar.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/KeyboardManager.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/UIView+Keyboard.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/include/KeyboardKit-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "framework_api_service"
+      ],
+      "outputFileMapPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/KeyboardManager+Toolbar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/KeyboardManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/UIView+Keyboard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/KeyboardKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager+Toolbar.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/UIView+Keyboard.swift"
+      ],
+      "tempsPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NetworkKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/sources",
+      "importPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Authentication/AuthenticationProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Cache/NetworkCachePolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPHeaders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/TransferDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/URLSessionProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Extensions/Encodable+JSON.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Interceptor/RequestInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/LogLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/NetworkLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Middleware/Middleware.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Reachability/NetworkReachability.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/Endpoint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/EndpointProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/MultipartFormData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/RequestBody.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/URLRequestBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/NetworkResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/ResponseValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Retry/RetryPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Security/ServerTrustEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/Coders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/TransferProgress.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NetworkKit",
+      "moduleOutputPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKit.swiftmodule",
+      "objects" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/AuthenticationProvider.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkCachePolicy.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/APIClient.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/APIError.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/HTTPHeaders.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/HTTPMethod.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkClient.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkConfiguration.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/TransferDelegate.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/URLSessionProtocol.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Encodable+JSON.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RequestInterceptor.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/LogLevel.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkLogger.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Middleware.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkReachability.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Endpoint.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/EndpointProtocol.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/MultipartFormData.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RequestBody.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/URLRequestBuilder.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkResponse.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/ResponseValidator.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RetryPolicy.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/ServerTrustEvaluator.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Coders.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/TransferProgress.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/include/NetworkKit-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "framework_api_service"
+      ],
+      "outputFileMapPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/AuthenticationProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkCachePolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/APIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/HTTPHeaders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/HTTPMethod.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/TransferDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/URLSessionProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Encodable+JSON.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RequestInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/LogLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Middleware.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkReachability.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Endpoint.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/EndpointProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/MultipartFormData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RequestBody.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/URLRequestBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/ResponseValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RetryPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/ServerTrustEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Coders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/TransferProgress.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Authentication/AuthenticationProvider.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Cache/NetworkCachePolicy.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIClient.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIError.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPHeaders.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPMethod.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkClient.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkConfiguration.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/TransferDelegate.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/URLSessionProtocol.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Extensions/Encodable+JSON.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Interceptor/RequestInterceptor.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/LogLevel.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/NetworkLogger.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Middleware/Middleware.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Reachability/NetworkReachability.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/Endpoint.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/EndpointProtocol.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/MultipartFormData.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/RequestBody.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/URLRequestBuilder.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/NetworkResponse.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/ResponseValidator.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Retry/RetryPolicy.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Security/ServerTrustEvaluator.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/Coders.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/TransferProgress.swift"
+      ],
+      "tempsPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NetworkKitImage-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/sources",
+      "importPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImageCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImagePipeline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/NetworkImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/PlatformImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/UIImageView+WebImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/WebImageLoader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NetworkKitImage",
+      "moduleOutputPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitImage.swiftmodule",
+      "objects" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/include/NetworkKitImage-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "framework_api_service"
+      ],
+      "outputFileMapPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitImage.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImageCache.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImagePipeline.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/NetworkImage.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/PlatformImage.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/UIImageView+WebImage.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/WebImageLoader.swift"
+      ],
+      "tempsPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NetworkKitPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/sources",
+      "importPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NetworkKitPackageTests",
+      "moduleOutputPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/include/NetworkKitPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "framework_api_service"
+      ],
+      "outputFileMapPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NetworkKitTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/sources",
+      "importPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/EndpointProtocolTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/ImageCacheTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockEndpoints.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockURLSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkClientTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkReachabilityTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitImage.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NetworkKitTests",
+      "moduleOutputPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitTests.swiftmodule",
+      "objects" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/EndpointProtocolTests.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/ImageCacheTests.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/MockEndpoints.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/MockURLSession.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/NetworkClientTests.swift.o",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/NetworkReachabilityTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "framework_api_service"
+      ],
+      "outputFileMapPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/EndpointProtocolTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/ImageCacheTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/MockEndpoints.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/MockURLSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/NetworkClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/NetworkReachabilityTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules/NetworkKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/EndpointProtocolTests.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/ImageCacheTests.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockEndpoints.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockURLSession.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkClientTests.swift",
+        "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkReachabilityTests.swift"
+      ],
+      "tempsPath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "KeyboardKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KeyboardKit",
+      "-package-name",
+      "framework_api_service",
+      "-c",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager+Toolbar.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/UIView+Keyboard.swift",
+      "-I",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/include/KeyboardKit-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "framework_api_service",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NetworkKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NetworkKit",
+      "-package-name",
+      "framework_api_service",
+      "-c",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Authentication/AuthenticationProvider.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Cache/NetworkCachePolicy.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIClient.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIError.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPHeaders.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPMethod.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkClient.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkConfiguration.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/TransferDelegate.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/URLSessionProtocol.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Extensions/Encodable+JSON.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Interceptor/RequestInterceptor.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/LogLevel.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/NetworkLogger.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Middleware/Middleware.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Reachability/NetworkReachability.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/Endpoint.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/EndpointProtocol.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/MultipartFormData.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/RequestBody.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/URLRequestBuilder.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/NetworkResponse.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/ResponseValidator.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Retry/RetryPolicy.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Security/ServerTrustEvaluator.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/Coders.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/TransferProgress.swift",
+      "-I",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/include/NetworkKit-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "framework_api_service",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NetworkKitImage" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NetworkKitImage",
+      "-package-name",
+      "framework_api_service",
+      "-c",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImageCache.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImagePipeline.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/NetworkImage.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/PlatformImage.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/UIImageView+WebImage.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/WebImageLoader.swift",
+      "-I",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/include/NetworkKitImage-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "framework_api_service",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NetworkKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NetworkKitPackageTests",
+      "-package-name",
+      "framework_api_service",
+      "-c",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/include/NetworkKitPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "framework_api_service",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "NetworkKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NetworkKitTests",
+      "-package-name",
+      "framework_api_service",
+      "-c",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/EndpointProtocolTests.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/ImageCacheTests.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockEndpoints.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockURLSession.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkClientTests.swift",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkReachabilityTests.swift",
+      "-I",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "framework_api_service",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "KeyboardKit" : [
+
+    ],
+    "NetworkKit" : [
+
+    ],
+    "NetworkKitImage" : [
+      "NetworkKit"
+    ],
+    "NetworkKitPackageTests" : [
+      "NetworkKitTests",
+      "NetworkKitImage",
+      "NetworkKit"
+    ],
+    "NetworkKitTests" : [
+      "NetworkKitImage",
+      "NetworkKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager+Toolbar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/KeyboardManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/UIView+Keyboard.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/sources"
+    },
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Authentication/AuthenticationProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Cache/NetworkCachePolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/APIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPHeaders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/HTTPMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/NetworkConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/TransferDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Core/URLSessionProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Extensions/Encodable+JSON.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Interceptor/RequestInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/LogLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Logger/NetworkLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Middleware/Middleware.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Reachability/NetworkReachability.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/Endpoint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/EndpointProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/MultipartFormData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/RequestBody.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Request/URLRequestBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/NetworkResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Response/ResponseValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Retry/RetryPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Security/ServerTrustEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/Coders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKit/Utilities/TransferProgress.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/sources"
+    },
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImageCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImagePipeline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/NetworkImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/PlatformImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/UIImageView+WebImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/WebImageLoader.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/sources"
+    },
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/sources"
+    },
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/APIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/AuthenticationProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Coders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Encodable+JSON.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Endpoint.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/EndpointProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/HTTPHeaders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/HTTPMethod.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/LogLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/Middleware.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/MultipartFormData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkCachePolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkReachability.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/NetworkResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RequestBody.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RequestInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/ResponseValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/RetryPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/ServerTrustEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/TransferDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/TransferProgress.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/URLRequestBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/URLSessionProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/EndpointProtocolTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/ImageCacheTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/MockEndpoints.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/MockURLSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/NetworkClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/NetworkReachabilityTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/EndpointProtocolTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/ImageCacheTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockEndpoints.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/Mocks/MockURLSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkClientTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/NetworkKitTests/NetworkReachabilityTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitTests.build/sources"
+    },
+    "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

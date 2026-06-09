@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/master.swiftdeps"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImageCache.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImageCache.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/ImagePipeline.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/ImagePipeline.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/NetworkImage.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/NetworkImage.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/PlatformImage.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/PlatformImage.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/UIImageView+WebImage.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/UIImageView+WebImage.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/NetworkKitImage/WebImageLoader.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKitImage.build/WebImageLoader.dia"
+  }
+}
