@@ -22,5 +22,12 @@
     "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/UIView+Keyboard~partial.swiftmodule",
     "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/UIView+Keyboard.swiftdeps",
     "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/UIView+Keyboard.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/KeyboardKit/View+DismissKeyboard.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/View+DismissKeyboard.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/View+DismissKeyboard.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/View+DismissKeyboard~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/View+DismissKeyboard.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/KeyboardKit.build/View+DismissKeyboard.dia"
   }
 }

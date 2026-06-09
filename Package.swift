@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "NetworkKit",
+    name: "HKNetworkKit",
     platforms: [
         .iOS(.v15),
         .macOS(.v12),
@@ -12,13 +12,13 @@ let package = Package(
     products: [
         // Core networking — zero third-party dependencies.
         .library(
-            name: "NetworkKit",
-            targets: ["NetworkKit"]
+            name: "HKNetworkKit",
+            targets: ["HKNetworkKit"]
         ),
         // Optional image loading (UIKit + SwiftUI helpers). Custom, dependency-free.
         .library(
-            name: "NetworkKitImage",
-            targets: ["NetworkKitImage"]
+            name: "HKNetworkKitImage",
+            targets: ["HKNetworkKitImage"]
         ),
         // Optional automatic keyboard handling for UIKit (iOS). Custom,
         // dependency-free alternative to IQKeyboardManagerSwift.
@@ -29,22 +29,22 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "NetworkKit",
-            path: "Sources/NetworkKit"
+            name: "HKNetworkKit",
+            path: "Sources/HKNetworkKit"
         ),
         .target(
-            name: "NetworkKitImage",
-            dependencies: ["NetworkKit"],
-            path: "Sources/NetworkKitImage"
+            name: "HKNetworkKitImage",
+            dependencies: ["HKNetworkKit"],
+            path: "Sources/HKNetworkKitImage"
         ),
         .target(
             name: "KeyboardKit",
             path: "Sources/KeyboardKit"
         ),
         .testTarget(
-            name: "NetworkKitTests",
-            dependencies: ["NetworkKit", "NetworkKitImage"],
-            path: "Tests/NetworkKitTests"
+            name: "HKNetworkKitTests",
+            dependencies: ["HKNetworkKit", "HKNetworkKitImage"],
+            path: "Tests/HKNetworkKitTests"
         )
     ],
     swiftLanguageModes: [.v6]

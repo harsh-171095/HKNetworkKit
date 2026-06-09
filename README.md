@@ -1,4 +1,4 @@
-# NetworkKit
+# HKNetworkKit
 
 A production-ready, reusable Swift networking framework built on `URLSession` with
 **zero third-party dependencies**. Designed around protocol-oriented programming,
@@ -17,13 +17,13 @@ dependency injection, and modern Swift concurrency (`async/await`).
 - Comprehensive `APIError` taxonomy
 - **SSL / public-key pinning** and HTTPS enforcement
 - Built-in **network reachability** monitor (`NWPathMonitor`-based, no dependencies) with optional fail-fast-when-offline
-- Optional **image loading** (`NetworkKitImage`): memory + disk cache, request de-duplication, UIKit & SwiftUI helpers — an in-house, dependency-free alternative to SDWebImage
+- Optional **image loading** (`HKNetworkKitImage`): memory + disk cache, request de-duplication, UIKit & SwiftUI helpers — an in-house, dependency-free alternative to SDWebImage
 - Fully mockable (`URLSessionProtocol` + `MockURLSession`) for unit testing
 
 ## Installation
 
 Three products ship from this one package — add only what you need:
-`NetworkKit` (core), `NetworkKitImage` (image loading), `KeyboardKit` (iOS keyboard).
+`HKNetworkKit` (core), `HKNetworkKitImage` (image loading), `KeyboardKit` (iOS keyboard).
 
 ### Swift Package Manager (recommended)
 
@@ -32,13 +32,13 @@ then add the products you want. Or in a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/harsh-171095/NetworkKit.git", from: "1.0.0")
+    .package(url: "https://github.com/harsh-171095/HKNetworkKit.git", from: "1.0.1")
 ],
 targets: [
     .target(name: "MyApp", dependencies: [
-        .product(name: "NetworkKit",      package: "NetworkKit"),
-        .product(name: "NetworkKitImage", package: "NetworkKit"),  // optional
-        .product(name: "KeyboardKit",     package: "NetworkKit"),  // optional
+        .product(name: "HKNetworkKit",      package: "HKNetworkKit"),
+        .product(name: "HKNetworkKitImage", package: "HKNetworkKit"),  // optional
+        .product(name: "KeyboardKit",     package: "HKNetworkKit"),  // optional
     ])
 ]
 ```
@@ -46,14 +46,14 @@ targets: [
 ### CocoaPods
 
 ```ruby
-pod 'NetworkKit'                 # core only (default subspec)
-pod 'NetworkKit/Image'           # + image loading
-pod 'NetworkKit/Keyboard'        # + keyboard handling
+pod 'HKNetworkKit'                 # core only (default subspec)
+pod 'HKNetworkKit/Image'           # + image loading
+pod 'HKNetworkKit/Keyboard'        # + keyboard handling
 ```
 
 > CocoaPods compiles all subspecs into a **single module**, so Pod users write
-> `import NetworkKit` for everything (SPM users keep the separate
-> `import NetworkKitImage` / `import KeyboardKit`).
+> `import HKNetworkKit` for everything (SPM users keep the separate
+> `import HKNetworkKitImage` / `import KeyboardKit`).
 
 ---
 
@@ -62,7 +62,7 @@ pod 'NetworkKit/Keyboard'        # + keyboard handling
 ### 1. Configure the client
 
 ```swift
-import NetworkKit
+import HKNetworkKit
 
 let auth = BearerTokenProvider(token: "initial") {
     // Called automatically on a 401. Return a fresh token, or nil to fail.
@@ -109,7 +109,7 @@ enum UserAPI {
 #### Easy mode: `EndpointProtocol` (string-based)
 
 For quick adoption you can skip typed endpoints entirely and declare a plain,
-string-based enum. NetworkKit bridges it into a full request for you (splitting
+string-based enum. HKNetworkKit bridges it into a full request for you (splitting
 any `?query` out of the path, mapping the method string, etc.):
 
 ```swift
@@ -215,8 +215,8 @@ to update UI; cancel the task in `deinit` or on disappearance.
 
 ```swift
 import UIKit
-import NetworkKit
-import NetworkKitImage   // for the image view helper
+import HKNetworkKit
+import HKNetworkKitImage   // for the image view helper
 
 final class ProfileViewController: UIViewController {
     private let client: APIClient
@@ -243,7 +243,7 @@ final class ProfileViewController: UIViewController {
             do {
                 let user = try await client.send(UserAPI.Get(id: userID), as: User.self).value
                 nameLabel.text = user.name
-                avatarView.setImage(fromURL: user.avatarURL)   // NetworkKitImage helper
+                avatarView.setImage(fromURL: user.avatarURL)   // HKNetworkKitImage helper
             } catch is CancellationError {
                 // view went away — ignore
             } catch let error as APIError {
@@ -272,8 +272,8 @@ disappears.
 
 ```swift
 import SwiftUI
-import NetworkKit
-import NetworkKitImage
+import HKNetworkKit
+import HKNetworkKitImage
 
 @MainActor
 final class ProfileViewModel: ObservableObject {
@@ -374,16 +374,16 @@ let config = NetworkConfiguration(
 )
 ```
 
-## Image loading (`NetworkKitImage`)
+## Image loading (`HKNetworkKitImage`)
 
 A custom, **dependency-free** image loader (memory + disk cache, automatic
 de-duplication of concurrent requests for the same URL) with the same ergonomics
-as SDWebImage. Add the `NetworkKitImage` product to your target to use it.
+as SDWebImage. Add the `HKNetworkKitImage` product to your target to use it.
 
 ### UIKit
 
 ```swift
-import NetworkKitImage
+import HKNetworkKitImage
 
 // Exactly the API you asked for — plus a built-in activity indicator,
 // cache-aware fast path, and automatic cancellation on cell reuse:
@@ -406,7 +406,7 @@ avatarView.cancelImageLoad()
 ### SwiftUI
 
 ```swift
-import NetworkKitImage
+import HKNetworkKitImage
 
 // Default spinner placeholder:
 NetworkImage(url: user.avatarURL)
@@ -429,8 +429,8 @@ WebImageLoader.clearMemoryCache()
 WebImageLoader.clearDiskCache()
 ```
 
-> The core `NetworkKit` library has **zero** third-party dependencies. Image
-> loading lives in the separate `NetworkKitImage` product, also dependency-free,
+> The core `HKNetworkKit` library has **zero** third-party dependencies. Image
+> loading lives in the separate `HKNetworkKitImage` product, also dependency-free,
 > built on `URLSession`, `NSCache`, `CryptoKit`, UIKit and SwiftUI.
 
 ## Keyboard handling (`KeyboardKit`)
@@ -591,7 +591,7 @@ let client = NetworkClient(configuration: config, session: session)
 let user: User = try await client.send(UserAPI.Get(id: 1))
 ```
 
-See `Tests/NetworkKitTests` for full examples covering decoding, retries, token refresh,
+See `Tests/HKNetworkKitTests` for full examples covering decoding, retries, token refresh,
 multipart upload, and HTTPS enforcement.
 
 ## Requirements
