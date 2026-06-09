@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     Optional modules add SDWebImage-style image loading and IQKeyboardManager-style
     keyboard handling — all with zero third-party dependencies.
   DESC
-  s.homepage         = 'https://github.com/<your-username>/HKNetworkKit'
+  s.homepage         = 'https://github.com/harsh-171095/HKNetworkKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Harsh Kadiya' => 'harshraj.gohil171095@gmail.com' }
   s.source           = { :git => 'https://github.com/harsh-171095/HKNetworkKit.git', :tag => s.version.to_s }
