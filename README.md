@@ -1,4 +1,4 @@
-# NetworkKit
+# HKNetworkKit
 
 A production-ready, reusable Swift networking framework built on `URLSession` with
 **zero third-party dependencies**. Designed around protocol-oriented programming,
@@ -17,13 +17,13 @@ dependency injection, and modern Swift concurrency (`async/await`).
 - Comprehensive `APIError` taxonomy
 - **SSL / public-key pinning** and HTTPS enforcement
 - Built-in **network reachability** monitor (`NWPathMonitor`-based, no dependencies) with optional fail-fast-when-offline
-- Optional **image loading** (`NetworkKitImage`): memory + disk cache, request de-duplication, UIKit & SwiftUI helpers — an in-house, dependency-free alternative to SDWebImage
+- Optional **image loading** (`HKNetworkKitImage`): memory + disk cache, request de-duplication, UIKit & SwiftUI helpers — an in-house, dependency-free alternative to SDWebImage
 - Fully mockable (`URLSessionProtocol` + `MockURLSession`) for unit testing
 
 ## Installation
 
 Three products ship from this one package — add only what you need:
-`NetworkKit` (core), `NetworkKitImage` (image loading), `KeyboardKit` (iOS keyboard).
+`HKNetworkKit` (core), `HKNetworkKitImage` (image loading), `KeyboardKit` (iOS keyboard).
 
 ### Swift Package Manager (recommended)
 
@@ -32,13 +32,13 @@ then add the products you want. Or in a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/<your-username>/NetworkKit.git", from: "1.0.0")
+    .package(url: "https://github.com/<your-username>/HKNetworkKit.git", from: "1.0.0")
 ],
 targets: [
     .target(name: "MyApp", dependencies: [
-        .product(name: "NetworkKit",      package: "NetworkKit"),
-        .product(name: "NetworkKitImage", package: "NetworkKit"),  // optional
-        .product(name: "KeyboardKit",     package: "NetworkKit"),  // optional
+        .product(name: "HKNetworkKit",      package: "HKNetworkKit"),
+        .product(name: "HKNetworkKitImage", package: "HKNetworkKit"),  // optional
+        .product(name: "KeyboardKit",     package: "HKNetworkKit"),  // optional
     ])
 ]
 ```
@@ -46,14 +46,14 @@ targets: [
 ### CocoaPods
 
 ```ruby
-pod 'NetworkKit'                 # core only (default subspec)
-pod 'NetworkKit/Image'           # + image loading
-pod 'NetworkKit/Keyboard'        # + keyboard handling
+pod 'HKNetworkKit'                 # core only (default subspec)
+pod 'HKNetworkKit/Image'           # + image loading
+pod 'HKNetworkKit/Keyboard'        # + keyboard handling
 ```
 
 > CocoaPods compiles all subspecs into a **single module**, so Pod users write
-> `import NetworkKit` for everything (SPM users keep the separate
-> `import NetworkKitImage` / `import KeyboardKit`).
+> `import HKNetworkKit` for everything (SPM users keep the separate
+> `import HKNetworkKitImage` / `import KeyboardKit`).
 
 ---
 
@@ -64,9 +64,9 @@ versions from git tags; this alone makes SPM installs work — no registration, 
 
 ```bash
 cd framework_api_service
-git init && git add . && git commit -m "NetworkKit 1.0.0"
+git init && git add . && git commit -m "HKNetworkKit 1.0.0"
 git branch -M main
-git remote add origin https://github.com/<your-username>/NetworkKit.git
+git remote add origin https://github.com/<your-username>/HKNetworkKit.git
 git push -u origin main
 git tag 1.0.0 && git push origin 1.0.0          # tag = the SPM/Pod version
 ```
@@ -76,27 +76,27 @@ That's everything SPM needs. Share the URL — anyone can add it for free.
 **Step 2 (optional) — publish to CocoaPods trunk** so `pod install` works:
 
 ```bash
-# a) Pick a UNIQUE pod name (edit NetworkKit.podspec — "NetworkKit" is likely taken),
+# a) Pick a UNIQUE pod name (edit HKNetworkKit.podspec — "HKNetworkKit" is likely taken),
 #    and set the homepage/source URLs to your repo.
 
 # b) Validate the spec against the pushed tag:
-pod spec lint NetworkKit.podspec        # use `pod lib lint` to check locally first
+pod spec lint HKNetworkKit.podspec        # use `pod lib lint` to check locally first
 
 # c) One-time: register your email with trunk (creates a free account):
 pod trunk register support@nuverse.in 'Harsh Kadiya' --description='mac'
 #    (click the link in the confirmation email)
 
 # d) Publish:
-pod trunk push NetworkKit.podspec
+pod trunk push HKNetworkKit.podspec
 ```
 
-After that, `pod 'NetworkKit'` resolves for everyone. New releases = bump
+After that, `pod 'HKNetworkKit'` resolves for everyone. New releases = bump
 `s.version`, push a matching git tag, run `pod trunk push` again.
 
 ## Folder structure
 
 ```
-Sources/NetworkKit/
+Sources/HKNetworkKit/
     Core/            APIClient, NetworkClient, configuration, HTTP primitives, errors
     Request/         Endpoint, RequestBody, MultipartFormData, URLRequestBuilder
     Response/        NetworkResponse, ResponseValidator
@@ -111,7 +111,7 @@ Sources/NetworkKit/
     Utilities/       Coders, TransferProgress
     Extensions/      Encodable/Data JSON helpers
 
-Sources/NetworkKitImage/   (optional product — dependency-free image loading)
+Sources/HKNetworkKitImage/   (optional product — dependency-free image loading)
     PlatformImage, ImageCache, ImagePipeline, WebImageLoader,
     UIImageView+WebImage (UIKit), NetworkImage (SwiftUI)
 
@@ -124,7 +124,7 @@ Sources/KeyboardKit/       (optional product — iOS keyboard handling)
 ### 1. Configure the client
 
 ```swift
-import NetworkKit
+import HKNetworkKit
 
 let auth = BearerTokenProvider(token: "initial") {
     // Called automatically on a 401. Return a fresh token, or nil to fail.
@@ -171,7 +171,7 @@ enum UserAPI {
 #### Easy mode: `EndpointProtocol` (string-based)
 
 For quick adoption you can skip typed endpoints entirely and declare a plain,
-string-based enum. NetworkKit bridges it into a full request for you (splitting
+string-based enum. HKNetworkKit bridges it into a full request for you (splitting
 any `?query` out of the path, mapping the method string, etc.):
 
 ```swift
@@ -277,8 +277,8 @@ to update UI; cancel the task in `deinit` or on disappearance.
 
 ```swift
 import UIKit
-import NetworkKit
-import NetworkKitImage   // for the image view helper
+import HKNetworkKit
+import HKNetworkKitImage   // for the image view helper
 
 final class ProfileViewController: UIViewController {
     private let client: APIClient
@@ -305,7 +305,7 @@ final class ProfileViewController: UIViewController {
             do {
                 let user = try await client.send(UserAPI.Get(id: userID), as: User.self).value
                 nameLabel.text = user.name
-                avatarView.setImage(fromURL: user.avatarURL)   // NetworkKitImage helper
+                avatarView.setImage(fromURL: user.avatarURL)   // HKNetworkKitImage helper
             } catch is CancellationError {
                 // view went away — ignore
             } catch let error as APIError {
@@ -334,8 +334,8 @@ disappears.
 
 ```swift
 import SwiftUI
-import NetworkKit
-import NetworkKitImage
+import HKNetworkKit
+import HKNetworkKitImage
 
 @MainActor
 final class ProfileViewModel: ObservableObject {
@@ -436,16 +436,16 @@ let config = NetworkConfiguration(
 )
 ```
 
-## Image loading (`NetworkKitImage`)
+## Image loading (`HKNetworkKitImage`)
 
 A custom, **dependency-free** image loader (memory + disk cache, automatic
 de-duplication of concurrent requests for the same URL) with the same ergonomics
-as SDWebImage. Add the `NetworkKitImage` product to your target to use it.
+as SDWebImage. Add the `HKNetworkKitImage` product to your target to use it.
 
 ### UIKit
 
 ```swift
-import NetworkKitImage
+import HKNetworkKitImage
 
 // Exactly the API you asked for — plus a built-in activity indicator,
 // cache-aware fast path, and automatic cancellation on cell reuse:
@@ -468,7 +468,7 @@ avatarView.cancelImageLoad()
 ### SwiftUI
 
 ```swift
-import NetworkKitImage
+import HKNetworkKitImage
 
 // Default spinner placeholder:
 NetworkImage(url: user.avatarURL)
@@ -491,8 +491,8 @@ WebImageLoader.clearMemoryCache()
 WebImageLoader.clearDiskCache()
 ```
 
-> The core `NetworkKit` library has **zero** third-party dependencies. Image
-> loading lives in the separate `NetworkKitImage` product, also dependency-free,
+> The core `HKNetworkKit` library has **zero** third-party dependencies. Image
+> loading lives in the separate `HKNetworkKitImage` product, also dependency-free,
 > built on `URLSession`, `NSCache`, `CryptoKit`, UIKit and SwiftUI.
 
 ## Keyboard handling (`KeyboardKit`)
@@ -653,7 +653,7 @@ let client = NetworkClient(configuration: config, session: session)
 let user: User = try await client.send(UserAPI.Get(id: 1))
 ```
 
-See `Tests/NetworkKitTests` for full examples covering decoding, retries, token refresh,
+See `Tests/HKNetworkKitTests` for full examples covering decoding, retries, token refresh,
 multipart upload, and HTTPS enforcement.
 
 ## Requirements

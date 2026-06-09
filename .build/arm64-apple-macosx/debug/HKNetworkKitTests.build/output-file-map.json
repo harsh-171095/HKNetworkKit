@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/master.swiftdeps"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/HKNetworkKitTests/EndpointProtocolTests.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/EndpointProtocolTests.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/EndpointProtocolTests.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/EndpointProtocolTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/EndpointProtocolTests.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/EndpointProtocolTests.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/HKNetworkKitTests/ImageCacheTests.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/ImageCacheTests.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/ImageCacheTests.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/ImageCacheTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/ImageCacheTests.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/ImageCacheTests.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/HKNetworkKitTests/Mocks/MockEndpoints.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockEndpoints.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockEndpoints.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockEndpoints~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockEndpoints.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockEndpoints.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/HKNetworkKitTests/Mocks/MockURLSession.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockURLSession.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockURLSession.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockURLSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockURLSession.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/MockURLSession.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/HKNetworkKitTests/NetworkClientTests.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkClientTests.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkClientTests.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkClientTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkClientTests.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkClientTests.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Tests/HKNetworkKitTests/NetworkReachabilityTests.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkReachabilityTests.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkReachabilityTests.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkReachabilityTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkReachabilityTests.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKitTests.build/NetworkReachabilityTests.dia"
+  }
+}

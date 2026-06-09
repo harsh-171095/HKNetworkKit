@@ -1,3 +1,0 @@
-module NetworkKit {
-    header "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/NetworkKit.build/include/NetworkKit-Swift.h"
-}

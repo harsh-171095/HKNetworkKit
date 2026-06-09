@@ -1,0 +1,194 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/master.swiftdeps"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Authentication/AuthenticationProvider.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/AuthenticationProvider.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/AuthenticationProvider.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/AuthenticationProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/AuthenticationProvider.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/AuthenticationProvider.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Cache/NetworkCachePolicy.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkCachePolicy.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkCachePolicy.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkCachePolicy~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkCachePolicy.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkCachePolicy.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/APIClient.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIClient.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIClient.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIClient.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIClient.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/APIError.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIError.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIError.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIError.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/APIError.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/HTTPHeaders.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPHeaders.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPHeaders.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPHeaders~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPHeaders.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPHeaders.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/HTTPMethod.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPMethod.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPMethod.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPMethod~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPMethod.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/HTTPMethod.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/NetworkClient.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkClient.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkClient.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkClient.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkClient.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/NetworkConfiguration.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkConfiguration.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkConfiguration.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkConfiguration.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkConfiguration.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/TransferDelegate.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferDelegate.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferDelegate.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferDelegate.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferDelegate.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Core/URLSessionProtocol.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLSessionProtocol.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLSessionProtocol.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLSessionProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLSessionProtocol.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLSessionProtocol.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Extensions/Encodable+JSON.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Encodable+JSON.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Encodable+JSON.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Encodable+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Encodable+JSON.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Encodable+JSON.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Interceptor/RequestInterceptor.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestInterceptor.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestInterceptor.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestInterceptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestInterceptor.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestInterceptor.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Logger/LogLevel.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/LogLevel.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/LogLevel.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/LogLevel~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/LogLevel.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/LogLevel.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Logger/NetworkLogger.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkLogger.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkLogger.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkLogger.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkLogger.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Middleware/Middleware.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Middleware.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Middleware.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Middleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Middleware.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Middleware.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Reachability/NetworkReachability.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkReachability.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkReachability.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkReachability~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkReachability.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkReachability.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Request/Endpoint.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Endpoint.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Endpoint.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Endpoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Endpoint.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Endpoint.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Request/EndpointProtocol.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/EndpointProtocol.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/EndpointProtocol.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/EndpointProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/EndpointProtocol.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/EndpointProtocol.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Request/MultipartFormData.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/MultipartFormData.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/MultipartFormData.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/MultipartFormData~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/MultipartFormData.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/MultipartFormData.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Request/RequestBody.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestBody.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestBody.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestBody~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestBody.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RequestBody.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Request/URLRequestBuilder.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLRequestBuilder.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLRequestBuilder.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLRequestBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLRequestBuilder.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/URLRequestBuilder.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Response/NetworkResponse.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkResponse.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkResponse.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkResponse.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/NetworkResponse.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Response/ResponseValidator.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ResponseValidator.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ResponseValidator.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ResponseValidator~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ResponseValidator.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ResponseValidator.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Retry/RetryPolicy.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RetryPolicy.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RetryPolicy.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RetryPolicy~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RetryPolicy.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/RetryPolicy.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Security/ServerTrustEvaluator.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ServerTrustEvaluator.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ServerTrustEvaluator.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ServerTrustEvaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ServerTrustEvaluator.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/ServerTrustEvaluator.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Utilities/Coders.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Coders.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Coders.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Coders~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Coders.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/Coders.dia"
+  },
+  "/Users/Harsh/Documents/iOS_Repo/framework_api_service/Sources/HKNetworkKit/Utilities/TransferProgress.swift": {
+    "dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferProgress.d",
+    "object": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferProgress.swift.o",
+    "swiftmodule": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferProgress~partial.swiftmodule",
+    "swift-dependencies": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferProgress.swiftdeps",
+    "diagnostics": "/Users/Harsh/Documents/iOS_Repo/framework_api_service/.build/arm64-apple-macosx/debug/HKNetworkKit.build/TransferProgress.dia"
+  }
+}
