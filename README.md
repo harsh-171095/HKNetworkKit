@@ -23,7 +23,7 @@ dependency injection, and modern Swift concurrency (`async/await`).
 ## Installation
 
 Three products ship from this one package — add only what you need:
-`HKNetworkKit` (core), `HKNetworkKitImage` (image loading), `KeyboardKit` (iOS keyboard).
+`HKNetworkKit` (core), `HKNetworkKitImage` (image loading), `HKKeyboardKit` (iOS keyboard).
 
 ### Swift Package Manager (recommended)
 
@@ -32,13 +32,13 @@ then add the products you want. Or in a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/harsh-171095/HKNetworkKit.git", from: "1.0.1")
+    .package(url: "https://github.com/harsh-171095/HKNetworkKit.git", from: "1.0.4")
 ],
 targets: [
     .target(name: "MyApp", dependencies: [
         .product(name: "HKNetworkKit",      package: "HKNetworkKit"),
         .product(name: "HKNetworkKitImage", package: "HKNetworkKit"),  // optional
-        .product(name: "KeyboardKit",     package: "HKNetworkKit"),  // optional
+        .product(name: "HKKeyboardKit",     package: "HKNetworkKit"),  // optional
     ])
 ]
 ```
@@ -53,7 +53,7 @@ pod 'HKNetworkKit/Keyboard'        # + keyboard handling
 
 > CocoaPods compiles all subspecs into a **single module**, so Pod users write
 > `import HKNetworkKit` for everything (SPM users keep the separate
-> `import HKNetworkKitImage` / `import KeyboardKit`).
+> `import HKNetworkKitImage` / `import HKKeyboardKit`).
 
 ---
 
@@ -433,14 +433,14 @@ WebImageLoader.clearDiskCache()
 > loading lives in the separate `HKNetworkKitImage` product, also dependency-free,
 > built on `URLSession`, `NSCache`, `CryptoKit`, UIKit and SwiftUI.
 
-## Keyboard handling (`KeyboardKit`)
+## Keyboard handling (`HKKeyboardKit`)
 
 A custom, **dependency-free** alternative to IQKeyboardManagerSwift for UIKit
 (iOS). Enable it once and every text field in the app is kept above the keyboard,
 gets a Previous/Next/Done toolbar, and dismisses on tap-outside — no per-screen code.
 
 ```swift
-import KeyboardKit
+import HKKeyboardKit
 
 // In AppDelegate / SceneDelegate:
 KeyboardManager.shared.isEnabled = true
@@ -473,7 +473,7 @@ KeyboardManager.shared.enable(for: ChatViewController.self)   // re-enable later
 For SwiftUI screens, dismiss the keyboard on tap without disturbing controls:
 
 ```swift
-import KeyboardKit
+import HKKeyboardKit
 
 Form { … }
     .dismissKeyboardOnTap()
@@ -488,7 +488,7 @@ KeyboardDismisser.dismiss()
 
 ```swift
 import UIKit
-import KeyboardKit
+import HKKeyboardKit
 
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -546,7 +546,7 @@ final class SignUpViewController: UIViewController {
             stack.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             stack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
         ])
-        // KeyboardKit automatically:
+        // HKKeyboardKit automatically:
         //  • insets the scroll view + scrolls the active field into view,
         //  • adds a Previous/Next/Done toolbar wired across the three fields,
         //  • dismisses on tap outside.
@@ -558,7 +558,7 @@ final class SignUpViewController: UIViewController {
 
 ```swift
 import SwiftUI
-import KeyboardKit
+import HKKeyboardKit
 
 struct SignUpView: View {
     @State private var name = ""

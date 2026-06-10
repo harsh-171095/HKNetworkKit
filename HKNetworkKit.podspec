@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HKNetworkKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'A modern, dependency-free Swift networking toolkit (async/await), plus optional image loading and keyboard handling.'
   s.description      = <<-DESC
     HKNetworkKit is a production-ready, URLSession-based networking framework built
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
   # Automatic keyboard handling (iOS only; code is guarded with #if os(iOS)).
   s.subspec 'Keyboard' do |keyboard|
-    keyboard.source_files     = 'Sources/KeyboardKit/**/*.swift'
+    keyboard.source_files     = 'Sources/HKKeyboardKit/**/*.swift'
     keyboard.ios.frameworks   = 'UIKit'
   end
 end

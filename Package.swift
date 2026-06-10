@@ -23,8 +23,8 @@ let package = Package(
         // Optional automatic keyboard handling for UIKit (iOS). Custom,
         // dependency-free alternative to IQKeyboardManagerSwift.
         .library(
-            name: "KeyboardKit",
-            targets: ["KeyboardKit"]
+            name: "HKKeyboardKit",
+            targets: ["HKKeyboardKit"]
         )
     ],
     targets: [
@@ -38,8 +38,8 @@ let package = Package(
             path: "Sources/HKNetworkKitImage"
         ),
         .target(
-            name: "KeyboardKit",
-            path: "Sources/KeyboardKit"
+            name: "HKKeyboardKit",
+            path: "Sources/HKKeyboardKit"
         ),
         .testTarget(
             name: "HKNetworkKitTests",
