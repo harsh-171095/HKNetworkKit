@@ -21,7 +21,7 @@ extension QueryParameters {
     }
 }
 
-enum AppEndpoint: EndpointProtocol {
+enum FirstEndpoint: EndpointProtocol {
     
     var headers: [String : String] {
             var headers: [String: String] = [
@@ -40,21 +40,17 @@ enum AppEndpoint: EndpointProtocol {
     var baseURL: String { return "https://{DOMIN}/PATH"}
     
     case login, register, forgotPassword
-    case getProfile, updateProfile, deleteProfile
-    case postScan, getAllScanHistory(QueryParameters), getScanById(String), getScanPDFById(String), consumeCredit
-    case getAvailableCredits ,getCreditPackages, getUserPackages, getDeviceVersion
-    case paymentInitiate, paymentVerify
-    case getCalendar(QueryParameters), getScanHistoryByDate(QueryParameters)
+    case postOrder, getAllOrderHistory(QueryParameters), getOrderById(String), getOrderPDFById(String)
     
     var endpoint: String{
         switch self {
             case .login:                    return "/auth/login"
             case .register:                 return "/auth/signup"
             case .forgotPassword:           return "/auth/forgot-password"
-            case .postScan:                 return "/user/order-history"
-            case .getAllScanHistory:        return "/user/order-history\(queryParames)"
-            case .getScanById(let path):    return "/user/order-history/\(path)" // /user/scan-history/5
-            case .getScanPDFById(let path): return "/billing/pdf/\(path)"
+            case .postOrder:                 return "/user/order-history"
+            case .getAllOrderHistory:        return "/user/order-history\(queryParames)"
+            case .getOrderById(let path):    return "/user/order-history/\(path)" // /user/scan-history/5
+            case .getOrderPDFById(let path): return "/billing/pdf/\(path)"
         }
     }
     
@@ -79,7 +75,7 @@ enum AppEndpoint: EndpointProtocol {
     
 }
 
-enum MyResetZoneEndpoint: EndpointProtocol {
+enum SecondEndpoint: EndpointProtocol {
     var baseURL: String { return "https://{DOMIN_2_EXTERNAL_APIS}/PATH"}
     
     var headers: [String : String] {
@@ -115,3 +111,4 @@ enum MyResetZoneEndpoint: EndpointProtocol {
     
     
 }
+
